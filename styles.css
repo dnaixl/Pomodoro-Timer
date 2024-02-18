@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  #timer {
+    font-size: 88px;
+    margin-bottom: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+
+.buttons-container {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #f8f9fa;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0.675rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  #startButton{
+    display: inline-block;
+    color: var(--foreground-color);
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid var(--foreground-color);
+    border-radius: 500px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Space Grotesk",sans-serif;
+  }
+
+  #resetButton{
+    display: inline-block;
+    color: var(--foreground-color);
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid var(--foreground-color);
+    border-radius: 500px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    font-family: "Space Grotesk",sans-serif;
+  }
